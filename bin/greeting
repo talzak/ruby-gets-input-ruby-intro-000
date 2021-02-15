@@ -4,6 +4,6 @@ require_relative '../lib/hello_ruby_programmer.rb'
 
 puts "Hi! Welcome to the wonderful world of Ruby programming."
 name = gets.strip
-puts "hello, how are you?"
-hello = gets.strip
-greeting(name)
+#puts "hello, how are you?"
+#hello = gets.strip
+greeting(name + hello)
